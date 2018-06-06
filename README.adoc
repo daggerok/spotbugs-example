@@ -1,4 +1,4 @@
-= spotbugs-example
+= spotbugs-example image:https://travis-ci.org/daggerok/spotbugs-example.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/spotbugs-example"]
 
 Yak tool.. rly.
 
