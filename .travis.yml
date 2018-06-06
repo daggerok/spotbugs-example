@@ -15,7 +15,6 @@ install: true
 script:
 - ./mvnw spotbugs:help
 - ./mvnw spotbugs:check
-- ./mvnw spotbugs:gui
 - ./mvnw spotbugs:spotbugs
 cache:
   directories:
