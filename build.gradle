@@ -24,6 +24,8 @@ repositories {
   jcenter()
 }
 
+defaultTasks 'clean', 'check'
+
 lombok {
   version = project.lombokVersion
 }

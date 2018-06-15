@@ -14,15 +14,17 @@ install: true
 
 script:
 
-- ./mvnw spotbugs:help
-- ./mvnw spotbugs:check
-- ./mvnw spotbugs:spotbugs
+- ./mvnw
+- ./mvnw clean spotbugs:help
+- ./mvnw clean spotbugs:spotbugs
+- ./mvnw clean spotbugs:check
 
-- ./gradlew check
-- ./gradlew spotbugsMain
-- ./gradlew spotbugsTest
+- ./gradlew
+- ./gradlew clean spotbugsMain
+- ./gradlew clean spotbugsTest
+- ./gradlew clean check
 
 cache:
   directories:
-  - $HOME/.m2
-  - $HOME/.gradle
+  - "$HOME/.m2"
+  - "$HOME/.gradle"
