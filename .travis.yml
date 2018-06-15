@@ -15,13 +15,9 @@ install: true
 script:
 
 - ./mvnw
-- ./mvnw clean spotbugs:help
-- ./mvnw clean spotbugs:spotbugs
-- ./mvnw clean spotbugs:check
+- ./mvnw clean spotbugs:check -Ddetail=true
 
 - ./gradlew
-- ./gradlew clean spotbugsMain
-- ./gradlew clean spotbugsTest
 - ./gradlew clean check
 
 cache:

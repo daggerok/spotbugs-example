@@ -4,8 +4,8 @@
 .maven
 [source,bash]
 ----
-./mvnw spotbugs:help
-./mvnw spotbugs:check
+./mvnw spotbugs:help -Ddetail=true
+./mvnw spotbugs:check -Ddetail=true
 ./mvnw spotbugs:gui
 ./mvnw spotbugs:spotbugs
 ----
