@@ -13,82 +13,82 @@ public class SpotbugsWarningsByExample {
     System.out.println("Findbugs Sample 001 for BC_IMPOSSIBLE_CAST");
     // WRONG
     try {
-      FindbugsWarningsByExample.bcImpossibleCastWRONG();
+      SpotbugsWarningsByExample.bcImpossibleCastWRONG();
     } catch (final ClassCastException e) {
       System.out.println("   - ERROR:" + e.getMessage());
     }
     // CORRECT
-    FindbugsWarningsByExample.bcImpossibleCastCORRECT();
+    SpotbugsWarningsByExample.bcImpossibleCastCORRECT();
 
     System.out.println("Findbugs Sample 002 for BC_IMPOSSIBLE_DOWNCAST");
     // WRONG
     try {
-      FindbugsWarningsByExample.bcImpossibleDowncastWRONG();
+      SpotbugsWarningsByExample.bcImpossibleDowncastWRONG();
     } catch (final ClassCastException e) {
       System.out.println("   - ERROR:" + e.getMessage());
     }
     // CORRECT
-    FindbugsWarningsByExample.bcImpossibleDowncastCORRECT();
+    SpotbugsWarningsByExample.bcImpossibleDowncastCORRECT();
 
     System.out.println("Findbugs Sample 003 for BC_IMPOSSIBLE_INSTANCEOF");
     // WRONG
-    FindbugsWarningsByExample.bcImpossibleInstanceOfWRONG();
+    SpotbugsWarningsByExample.bcImpossibleInstanceOfWRONG();
     // CORRECT
-    FindbugsWarningsByExample.bcImpossibleInstanceOfCORRECT();
+    SpotbugsWarningsByExample.bcImpossibleInstanceOfCORRECT();
 
     System.out.println("Findbugs Sample 004 for BC_IMPOSSIBLE_DOWNCAST_OF_TOARRAY");
     // WRONG
     try {
-      FindbugsWarningsByExample.bcImpossibleDowncastOfArrayWRONG();
+      SpotbugsWarningsByExample.bcImpossibleDowncastOfArrayWRONG();
     } catch (final ClassCastException e) {
       System.out.println("   - ERROR:" + e.getMessage());
     }
     // CORRECT
-    FindbugsWarningsByExample.bcImpossibleDowncastOfArrayCORRECT();
+    SpotbugsWarningsByExample.bcImpossibleDowncastOfArrayCORRECT();
 
     System.out.println("Findbugs Sample 005 for DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE");
     // WRONG
-    FindbugsWarningsByExample.dmiBigDecimalConstructedFromDoubleWRONG();
+    SpotbugsWarningsByExample.dmiBigDecimalConstructedFromDoubleWRONG();
     // CORRECT
-    FindbugsWarningsByExample.dmiBigDecimalConstructedFromDoubleCORRECT();
+    SpotbugsWarningsByExample.dmiBigDecimalConstructedFromDoubleCORRECT();
 
     System.out.println("Findbugs Sample 006 for ES_COMPARING_STRINGS_WITH_EQ");
     // WRONG
-    FindbugsWarningsByExample.esComparingStringsWithEqWRONG();
+    SpotbugsWarningsByExample.esComparingStringsWithEqWRONG();
     // CORRECT
-    FindbugsWarningsByExample.esComparingStringsWithEqCORRECT();
+    SpotbugsWarningsByExample.esComparingStringsWithEqCORRECT();
 
     System.out.println("Findbugs Sample 007 for VA_FORMAT_STRING_ILLEGAL");
     // WRONG
     try {
-      FindbugsWarningsByExample.vaFormatStringIllegalWRONG();
+      SpotbugsWarningsByExample.vaFormatStringIllegalWRONG();
     } catch (final UnknownFormatConversionException e) {
       System.out.println("   - ERROR:" + e.getMessage());
     }
     // CORRECT
-    FindbugsWarningsByExample.vaFormatStringIllegalCORRECT();
+    SpotbugsWarningsByExample.vaFormatStringIllegalCORRECT();
 
     System.out.println("Findbugs Sample 008 for RV_RETURN_VALUE_IGNORED");
     // WRONG
-    FindbugsWarningsByExample.rvReturnValueIgnoredWRONG();
+    SpotbugsWarningsByExample.rvReturnValueIgnoredWRONG();
     // CORRECT
-    FindbugsWarningsByExample.rvReturnValueIgnoredCORRECT();
+    SpotbugsWarningsByExample.rvReturnValueIgnoredCORRECT();
 
     System.out.println("Findbugs Sample 009 for NP_ALWAYS_NULL");
     // WRONG
     try {
-      FindbugsWarningsByExample.npAlwaysNullWRONG();
+      SpotbugsWarningsByExample.npAlwaysNullWRONG();
     } catch (final NullPointerException e) {
       System.out.println("   - ERROR:" + e.getMessage());
     }
     // CORRECT
-    FindbugsWarningsByExample.npAlwaysNullCORRECT();
+    SpotbugsWarningsByExample.npAlwaysNullCORRECT();
 
     System.out.println("Findbugs Sample 010 for QBA_QUESTIONABLE_BOOLEAN_ASSIGNMENT");
     // WRONG
-    FindbugsWarningsByExample.qabQuestionableBooleanAssignmentWRONG();
+    SpotbugsWarningsByExample.qabQuestionableBooleanAssignmentWRONG();
     // CORRECT
-    FindbugsWarningsByExample.qabQuestionableBooleanAssignmentCORRECT();
+    SpotbugsWarningsByExample.qabQuestionableBooleanAssignmentCORRECT();
 
   }
 
@@ -223,5 +223,4 @@ public class SpotbugsWarningsByExample {
       System.out.println(String.format("   - value is false"));
     }
   }
-
 }

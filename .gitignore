@@ -1,9 +1,10 @@
-.hg
-.gradle
-build
-target
-out
-.idea
+/.hg/
+/.gradle/
+/public/
+/build/
+/target/
+/out/
+/.idea/
 *.iml
 *.ipr
 *.iws

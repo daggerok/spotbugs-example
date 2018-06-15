@@ -13,9 +13,15 @@ apt:
 install: true
 
 script:
+
 - ./mvnw spotbugs:help
 - ./mvnw spotbugs:check
 - ./mvnw spotbugs:spotbugs
+
+- ./gradlew check
+- ./gradlew spotbugsMain
+- ./gradlew spotbugsTest
+
 cache:
   directories:
   - $HOME/.m2
