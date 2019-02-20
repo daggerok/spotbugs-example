@@ -19,7 +19,7 @@
 ----
 
 .create spotbugs maven project archetype (windows)
-[source,bash]
+[source,cmd]
 ----
 mvn archetype:generate^
       -DarchetypeArtifactId=spotbugs-archetype^
