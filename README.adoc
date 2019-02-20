@@ -28,6 +28,7 @@ mvn archetype:generate^
       -DgroupId=com.github.daggerok^
       -DartifactId=spotbugs-example^
       -Dversion=1.0.0-SNAPSHOT^
+      -Dpackage=com.github.daggerok^
       -B
 ----
 
@@ -41,6 +42,7 @@ mvn archetype:generate \
       -DgroupId=com.github.daggerok \
       -DartifactId=spotbugs-example \
       -Dversion=1.0.0-SNAPSHOT \
+      -Dpackage=com.github.daggerok \
       -B # non interactive mode
 ----
 
