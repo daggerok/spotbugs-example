@@ -13,7 +13,7 @@
 .gradle
 [source,bash]
 ----
-./gradlew chack
+./gradlew check
 ./gradlew spotbugsMain
 ./gradlew spotbugsTest
 ----
